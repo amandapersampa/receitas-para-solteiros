@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Template Bootstrap</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<form>
+  <div class="container">
+    <label><b>E-mail</b></label><br/>
+    <input type="text" placeholder="E-mail" name="email" required>
+    <br/>
+    <label><b>Password</b></label><br/>
+    <input type="password" placeholder="Password" name="psw" required>
+    
+    <button type="submit">Login</button><br/>
+    <input type="checkbox" checked="checked"> Lembrar
+  </div>
+
+  <div class="container">
+    <button type="button" class="cancelbtn">Cancelar</button> <!--Se cancelar voltar a página iniciar-->
+    <span class="psw">Esqueceu a <a href="#">senha?</a></span>
+  </div>
+</form>
+  
+  <!-- jQuery (necessario para os plugins Javascript do Bootstrap) -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
 </html>
