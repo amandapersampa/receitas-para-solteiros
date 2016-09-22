@@ -1,4 +1,4 @@
-# receitas-para-solteiros
+# Receitas para Solteiros
   Projeto de site para encontrar receitas
 
 # Mini Mundo
