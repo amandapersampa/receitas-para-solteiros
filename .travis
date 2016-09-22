@@ -7,5 +7,6 @@ jdk:
  
 branches:
   only:
-    - master
     - version1
+    - master
+    
